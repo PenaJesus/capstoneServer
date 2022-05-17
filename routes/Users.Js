@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const { Users } = require("../models"); //Posts model creates a table originally. This brings in the format of our table and allows us to use it later
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const { validateToken } = require("../middleware/AuthMiddleware");
 const { sign } = require("jsonwebtoken");
 
