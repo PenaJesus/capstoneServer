@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "admin",
-    "password": "Skyrim2011",
-    "database": "BlogDB",
-    "host": "db1.cmpexscpra8q.us-east-2.rds.amazonaws.com",
+    "username": "b839e72f5ec74b",
+    "password": "f413ea1f",
+    "database": "heroku_cfc470bdaab7fc3",
+    "host": "us-cdbr-east-05.cleardb.net",
     "dialect": "mysql"
   },
   "test": {
@@ -21,4 +21,3 @@
     "dialect": "mysql"
   }
 }
-

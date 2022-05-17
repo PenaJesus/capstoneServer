@@ -45,8 +45,7 @@ router.get("/basicinfo/:id", async (req, res) => {
     attributes: { exclude: ["password"] },
   });
 
-  res.json(basicInfo)
-
+  res.json(basicInfo);
 });
 
 module.exports = router;
