@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const { Comments } = require("../models");
 const { validateToken } = require("../middleware/AuthMiddleware");
-const { route } = require("./Users.js");
+
 
 router.get("/:postId", async (req, res) => {
   const postId = req.params.postId;
